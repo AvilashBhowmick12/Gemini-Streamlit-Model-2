@@ -109,7 +109,7 @@ To deploy the Streamlit Application in [Cloud Run](https://cloud.google.com/run/
 
    In Cloud Shell, execute the following command:
 
-   ```bash
+```bash
    gcloud run deploy "$SERVICE_NAME" \
   --port=8080 \
   --image="$GCP_REGION-docker.pkg.dev/$GCP_PROJECT/$AR_REPO/$SERVICE_NAME" \
@@ -118,13 +118,12 @@ To deploy the Streamlit Application in [Cloud Run](https://cloud.google.com/run/
   --platform=managed  \
   --project=$GCP_PROJECT \
   --set-env-vars=GCP_PROJECT=$GCP_PROJECT,GCP_REGION=$GCP_REGION
-   ```
-```
+  ```
 
 ## The Page after successfully running will look like this !
 
 <img src="https://github.com/AvilashBhowmick12/Gemini-Streamlit-Model-2/blob/main/images/Screenshot%202024-10-15%20224030.png" width="50%" alt="Vertex AI Gemini App"/>
-<img src="https://github.com/AvilashBhowmick12/Gemini-Streamlit-Model-2/blob/main/images/Screenshot%202024-10-15%20224054.png" width="40%" alt="Successful Deployment on Google Cloud run"/>
+<img src="https://github.com/AvilashBhowmick12/Gemini-Streamlit-Model-2/blob/main/images/Screenshot%202024-10-15%20224054.png" width="80%" alt="Successful Deployment on Google Cloud run"/>
 
 ### On successful deployment, you will be provided a URL to the Cloud Run service. You can visit that in the browser to view the Cloud Run application that you just deployed. Choose the functionality that you would like to check out and the application will prompt the Vertex AI Gemini API and display the responses.
 
