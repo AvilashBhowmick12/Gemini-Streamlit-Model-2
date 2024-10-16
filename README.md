@@ -119,11 +119,15 @@ To deploy the Streamlit Application in [Cloud Run](https://cloud.google.com/run/
   --project=$GCP_PROJECT \
   --set-env-vars=GCP_PROJECT=$GCP_PROJECT,GCP_REGION=$GCP_REGION
    ```
+```
 
-The Page after successfully running will look like this !
-<img src="https://storage.googleapis.com/github-repo/img/gemini/sample-apps/gemini-streamlit-cloudrun/assets/gemini_pro_text.png" width="50%" alt="Vertex AI Gemini App"/>
+## The Page after successfully running will look like this !
 
-On successful deployment, you will be provided a URL to the Cloud Run service. You can visit that in the browser to view the Cloud Run application that you just deployed. Choose the functionality that you would like to check out and the application will prompt the Vertex AI Gemini API and display the responses.
+<img src="https://github.com/AvilashBhowmick12/Gemini-Streamlit-Model-2/blob/main/images/Screenshot%202024-10-15%20224030.png" width="50%" alt="Vertex AI Gemini App"/>
+<img src="https://github.com/AvilashBhowmick12/Gemini-Streamlit-Model-2/blob/main/images/Screenshot%202024-10-15%20224054.png" width="40%" alt="Successful Deployment on Google Cloud run"/>
 
-Visit this URL to test my application !
+### On successful deployment, you will be provided a URL to the Cloud Run service. You can visit that in the browser to view the Cloud Run application that you just deployed. Choose the functionality that you would like to check out and the application will prompt the Vertex AI Gemini API and display the responses.
+
+## Visit this URL to test my application !
+
 [AvilashB - Gemini - Streamlit App](https://gemini-streamlit-app-1019799482474.europe-west1.run.app)
