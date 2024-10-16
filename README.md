@@ -1,4 +1,4 @@
-# Cloud Run application utilizing Streamlit Framework that demonstrates working with Vertex AI Gemini API | made with the help of gogole cloud skillboost tasks
+# Cloud Run application utilizing Streamlit Framework that demonstrates working with Vertex AI Gemini API | made with the help of google cloud skillboost tasks
 
 |           |                                                |
 | --------- | ---------------------------------------------- |
